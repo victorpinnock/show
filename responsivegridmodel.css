@@ -1,0 +1,116 @@
+/*Light blue container, this can have the navigator */
+
+.thehead {
+position: relative;
+width: 98vw;
+height: 280vw;
+left: 0vw;
+top: -6vw;
+font-size: 5vw;
+background-color: blue;
+}
+
+/*Yellow container, can house your content*/
+
+
+.content {
+position: relative;
+width: 98vw;
+height: 25vw;
+left: 0vw;
+top: 0vw;
+font-size: 1vw;
+background-color: yellow;
+}
+
+.image-grid {
+	position: relative;
+width: 98vw;
+height: 10vw;
+left: 0vw;
+top: -6vw;
+font-size: 1vw;
+background-color: orange;
+position: relative;
+z-index: -1;
+}
+
+/*red squares, these are repeated multiple times and moved using their width and distance from eachother as refference*/
+
+.box {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: .5vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+/*Inner green square, can be dupplicaSted to create more, this could be your images */
+
+.inner-object {
+
+position: absolute;
+width: 8vw;
+height: 8vw;
+left: .5vw;
+top: .5vw;
+font-size: 1vw;
+background-color: green;
+z-index: 1;
+}
+
+.box2 {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: 10vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+.box3 {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: 19.5vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+.box4 {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: 29vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+.box5 {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: 38.5vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+.box6 {
+	position: absolute;
+width: 9vw;
+height: 9vw;
+left: 48vw;
+top: .5vw;
+font-size: 1vw;
+background-color: red;
+}
+
+.dodger {
+ z-index: 99;
+}
